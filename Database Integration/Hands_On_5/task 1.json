@@ -1,0 +1,146 @@
+[
+  {
+    "student_id": 1,
+    "course_code": "CS101",
+    "semester": "2022-ODD",
+    "rating": 5,
+    "comments": "Excellent teaching. Would recommend.",
+    "tags": ["challenging", "well-structured", "good-examples"],
+    "submitted_at": { "$date": "2022-11-30T10:15:00Z" },
+    "attachments": [
+      {
+        "filename": "notes.pdf",
+        "size_kb": 240
+      }
+    ]
+  },
+  {
+    "student_id": 2,
+    "course_code": "CS101",
+    "semester": "2022-ODD",
+    "rating": 4,
+    "comments": "Very informative course.",
+    "tags": ["interactive", "helpful"],
+    "submitted_at": { "$date": "2022-11-29T09:30:00Z" },
+    "attachments": [
+      {
+        "filename": "assignment.docx",
+        "size_kb": 180
+      }
+    ]
+  },
+  {
+    "student_id": 3,
+    "course_code": "CS101",
+    "semester": "2022-ODD",
+    "rating": 5,
+    "comments": "Loved the practical sessions.",
+    "tags": ["practical", "interesting"],
+    "submitted_at": { "$date": "2022-11-28T14:20:00Z" }
+  },
+  {
+    "student_id": 4,
+    "course_code": "CS102",
+    "semester": "2022-EVEN",
+    "rating": 3,
+    "comments": "Good course but needs more examples.",
+    "tags": ["average", "examples"],
+    "submitted_at": { "$date": "2022-12-01T11:10:00Z" },
+    "attachments": [
+      {
+        "filename": "feedback.pdf",
+        "size_kb": 120
+      }
+    ]
+  },
+  {
+    "student_id": 5,
+    "course_code": "CS102",
+    "semester": "2022-EVEN",
+    "rating": 4,
+    "comments": "Faculty explained concepts clearly.",
+    "tags": ["clear", "organized"],
+    "submitted_at": { "$date": "2022-12-02T08:45:00Z" },
+    "attachments": [
+      {
+        "filename": "review.txt",
+        "size_kb": 25
+      }
+    ]
+  },
+  {
+    "student_id": 6,
+    "course_code": "CS103",
+    "semester": "2022-ODD",
+    "rating": 5,
+    "comments": "Excellent laboratory sessions.",
+    "tags": ["lab", "excellent"],
+    "submitted_at": { "$date": "2022-12-03T15:40:00Z" },
+    "attachments": [
+      {
+        "filename": "labreport.pdf",
+        "size_kb": 310
+      }
+    ]
+  },
+  {
+    "student_id": 7,
+    "course_code": "CS104",
+    "semester": "2022-EVEN",
+    "rating": 2,
+    "comments": "Course was difficult to follow.",
+    "tags": ["difficult", "fast-paced"],
+    "submitted_at": { "$date": "2022-12-04T12:00:00Z" },
+    "attachments": [
+      {
+        "filename": "remarks.doc",
+        "size_kb": 90
+      }
+    ]
+  },
+  {
+    "student_id": 8,
+    "course_code": "CS105",
+    "semester": "2022-ODD",
+    "rating": 4,
+    "comments": "Well structured syllabus.",
+    "tags": ["organized", "useful"],
+    "submitted_at": { "$date": "2022-12-05T16:25:00Z" },
+    "attachments": [
+      {
+        "filename": "course.pdf",
+        "size_kb": 200
+      }
+    ]
+  },
+  {
+    "student_id": 9,
+    "course_code": "CS106",
+    "semester": "2022-EVEN",
+    "rating": 5,
+    "comments": "One of the best courses.",
+    "tags": ["excellent", "recommended"],
+    "submitted_at": { "$date": "2022-12-06T09:55:00Z" },
+    "attachments": [
+      {
+        "filename": "certificate.pdf",
+        "size_kb": 150
+      }
+    ]
+  },
+  {
+    "student_id": 10,
+    "course_code": "CS107",
+    "semester": "2022-ODD",
+    "rating": 3,
+    "comments": "Overall a satisfactory experience.",
+    "tags": ["good", "balanced"],
+    "submitted_at": { "$date": "2022-12-07T13:35:00Z" },
+    "attachments": [
+      {
+        "filename": "summary.pdf",
+        "size_kb": 175
+      }
+    ]
+  }
+]

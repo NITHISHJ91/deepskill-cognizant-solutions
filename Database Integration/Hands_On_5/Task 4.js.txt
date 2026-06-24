@@ -1,0 +1,13 @@
+// Hands-On 5 - Task 4
+use("college_nosql");
+
+print("Creating index on course_code...");
+db.feedback.createIndex({ course_code: 1 });
+
+print("Listing indexes...");
+db.feedback.getIndexes();
+
+print("Checking query execution plan...");
+db.feedback.find({ course_code: "CS101" }).explain("executionStats");
+
+print("Hands-On 5 Task 4 Completed");
